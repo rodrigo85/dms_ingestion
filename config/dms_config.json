@@ -1,0 +1,39 @@
+{
+    "dms_task_name": "postgres-migration-test",
+    "s3_bucket_name": "postgres-repo",
+    "table_mappings": [
+        {
+            "schema_name": "bookings",
+            "table_name": "aircrafts_data"
+        },
+        {
+            "schema_name": "bookings",
+            "table_name": "airports_data"
+        },
+        {
+            "schema_name": "bookings",
+            "table_name": "boarding_passes"
+        },
+        {
+            "schema_name": "bookings",
+            "table_name": "bookings"
+        },
+        {
+            "schema_name": "bookings",
+            "table_name": "flights"
+        },
+        {
+            "schema_name": "bookings",
+            "table_name": "seats"
+        },
+        {
+            "schema_name": "bookings",
+            "table_name": "ticket_flights"
+        },
+        {
+            "schema_name": "bookings",
+            "table_name": "tickets"
+        }
+    ],
+    "migration_type": "full-load"
+}
