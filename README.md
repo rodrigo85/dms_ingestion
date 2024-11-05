@@ -27,6 +27,7 @@ This project runs within Docker containers and requires the following:
 
 Ensure you have Docker and Docker Compose installed on your machine before proceeding.
 
+<a name="setup-"></a>
 ### Setup 🛠️
 
 1. **Clone the repository to your local machine:**
@@ -108,6 +109,7 @@ Ensure you have Docker and Docker Compose installed on your machine before proce
 
     This command creates a public URL that AWS DMS can use to connect to your local PostgreSQL instance.
 
+<a name="running-the-project-"></a>
 ### Running the Project ▶️
 
 Once the containers are up and running, access the Airflow web UI at `http://localhost:8080`. Use the default credentials provided in the `.env` file to log in. Additionally, port `5432` will be exposed for accessing the PostgreSQL database.
