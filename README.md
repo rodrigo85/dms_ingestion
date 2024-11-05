@@ -2,6 +2,14 @@
 
 This project demonstrates how to use Apache Airflow to orchestrate AWS Database Migration Service (DMS) tasks for data ingestion. The solution leverages the power of Airflow for workflow automation and AWS DMS for seamless data migration to Amazon S3.
 
+#### Technology Stack
+
+- ![Airflow](https://img.shields.io/badge/-Apache%20Airflow-017CEE?logo=apacheairflow&logoColor=white) **Apache Airflow**: Orchestration of data pipelines.
+
+- ![AWS S3](https://img.shields.io/badge/-AWS%20S3-FF9900?logo=amazonaws&logoColor=white) **AWS S3**: Storage for ingested data.
+
+- ![AWS DMS](https://img.shields.io/badge/-AWS%20DMS-FF4F00?logo=amazonaws&logoColor=white) **AWS DMS**: Database migration service.
+
 ### Table of Contents 📚
 
 - [Quick Start Guide 🏁](#quick-start-guide-)
