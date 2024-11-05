@@ -6,8 +6,8 @@ This project demonstrates how to use Apache Airflow to orchestrate AWS Database 
 
 - [Quick Start Guide 🏁](#quick-start-guide-)
     - [Requirements 📋](#requirements-)
-    - [Setup & Installation 🛠️](#setup--installation-)
-    - [Running the Project ▶️](#running-the-project-)
+    - [Setup & Installation 🛠️](#setup--installation)
+    - [Running the Project ▶️](#running-the-project)
 - [Defining Table Mappings and Migration Setup 🔧](#defining-table-mappings-and-migration-setup-)
 - [Understanding the DAG Structure 📜](#understanding-the-dag-structure-)
     - [DAG Graph Representation](#dag-graph-representation)
@@ -108,7 +108,7 @@ Ensure you have Docker and Docker Compose installed on your machine before proce
 
     This command creates a public URL that AWS DMS can use to connect to your local PostgreSQL instance.
 
-### <a name="running-the-project">Running the Project ▶️</a>
+### Running the Project ▶️
 
 Once the containers are up and running, access the Airflow web UI at `http://localhost:8080`. Use the default credentials provided in the `.env` file to log in. Additionally, port `5432` will be exposed for accessing the PostgreSQL database.
 
