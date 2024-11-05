@@ -6,8 +6,8 @@ This project demonstrates how to use Apache Airflow to orchestrate AWS Database 
 
 - [Quick Start Guide 🏁](#quick-start-guide-)
     - [Requirements 📋](#requirements-)
-    - [Setup & Installation 🛠️](#setup--installation)
-    - [Running the Project ▶️](#running-the-project)
+    - [Setup 🛠️](#setup-)
+    - [Running the Project ▶️](#running-the-project-)
 - [Defining Table Mappings and Migration Setup 🔧](#defining-table-mappings-and-migration-setup-)
 - [Understanding the DAG Structure 📜](#understanding-the-dag-structure-)
     - [DAG Graph Representation](#dag-graph-representation)
@@ -27,7 +27,7 @@ This project runs within Docker containers and requires the following:
 
 Ensure you have Docker and Docker Compose installed on your machine before proceeding.
 
-### Setup & Installation 🛠️
+### Setup 🛠️
 
 1. **Clone the repository to your local machine:**
 
